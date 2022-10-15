@@ -1,0 +1,50 @@
+.comicfrogs {
+    width: 300px;
+}
+body {
+    background-color: #115232;
+}
+#supertitel {
+    font-size: 100pt; color: darkseagreen; font-family:frogfont;
+}
+.brightgreen {
+    color: greenyellow; font-family: 'Courier New', Courier, monospace; font-size: 30pt;
+}
+@font-face {
+    font-family:frogfont;
+    src: url(Magic\ Candy.ttf);
+}
+.comicfrogs-container {
+    display: flex;
+    justify-content: space-between;
+}
+.frogsvideo-container {
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15pt;
+}
+#beartitle {
+    font-family:frogfont;
+    color: cyan;
+    font-size: 100pt;
+    text-align: center;
+    background-image: url(https://media2.giphy.com/media/H48VmJjkMC8yClVcb1/giphy.gif?cid=ecf05e47y5ey4tq8hlr7oi77gp7uhfsjrjw5kknuafi59l1o&rid=giphy.gif&ct=g);
+}
+.dropdown-menu{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: tomato;
+}
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: tomato;
+}
+.container-fluid{
+    background-color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    background-color: tomato;
+}
